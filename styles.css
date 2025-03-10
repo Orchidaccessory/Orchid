@@ -45,14 +45,15 @@ h1 {
 }
 h2 {
   color: black;
+  text-align: center;
   font-family: courier;
-  font-size: 180%;
+  font-size: 150%;
 
 }
 p  {
   color: black;
   font-family: courier;
-  font-size: 160%;
+  font-size: 100%;
 }
 /* This is gallery styling */
 div.gallery {
@@ -101,11 +102,11 @@ body {
 <div class="header">
   <h1>Header</h1>
 </div>
-   <li><a class="active" href="#home">Home</a></li>
-  <li><a href="about.html">About</a></li>
-  <li><a href="products.html">Products</a></li>
-  <li><a href="gallery.html">Gallery</a></li>
-  <li><a href="contact.html">Contact</a></li>
+<li><a class="active" href="#home">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="products.html">Products</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="contact.html">Contact</a></li>
 </ul>
 
 <body>
