@@ -13,6 +13,9 @@ body {
   background-attachment: fixed; 
   background-size: 100% 100%;
 }
+    img {
+  border-radius: 8px;
+}  
 </style>
 <body>
     <ul>
@@ -26,11 +29,19 @@ body {
                 <li><a href="contact.html">Contact</a></li>
     </ul>
         <h2>Our Jewelry Collection</h2>
-       <img src="Diamond Ring.jpg" alt="Diamond Ring">
-            <p>Diamond Ring</p>
-           
-       <img src="bracelet.jpg" alt="Gold Bracelet">
-            <p>Gold Bracelet</p> 
+       <div class="gallery">
+  <a target="_blank" href="Diamond Ring.jpg">
+    <img src="img_5terre.jpg" alt="Diamond Ring" width="600" height="400">
+  </a>
+  <div class="desc">a beautiful ring with diamond.</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="bracelet.jpg">
+    <img src="img_forest.jpg" alt="Gold Bracelet" width="600" height="400">
+  </a>
+  <div class="desc">A beautiful bracelet made of gold.</div>
+</div>
     </body>
     <footer
         <p>&copy; 2024 Online Jewelry Store</p>
