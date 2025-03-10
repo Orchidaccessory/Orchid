@@ -97,8 +97,10 @@ body {
 </style>
 </head>
 <body>
-
 <ul>
+<div class="header">
+  <h1>Header</h1>
+</div>
    <li><a class="active" href="#home">Home</a></li>
   <li><a href="about.html">About</a></li>
   <li><a href="products.html">Products</a></li>
@@ -106,19 +108,17 @@ body {
   <li><a href="contact.html">Contact</a></li>
 </ul>
 
-</style>
-</head>
 <body>
 <div class="gallery">
   <a target="_blank" href="Diamond Ring.jpg">
-    <img src="img_5terre.jpg" alt="Diamond Ring" width="600" height="400">
+    <img src="Diamond Ring" alt="Diamond Ring" width="600" height="400">
   </a>
   <div class="desc">a beautiful ring with diamond.</div>
 </div>
 
 <div class="gallery">
   <a target="_blank" href="bracelet.jpg">
-    <img src="img_forest.jpg" alt="Gold Bracelet" width="600" height="400">
+    <img src="bracelet.jpg" alt="Gold Bracelet" width="600" height="400">
   </a>
   <div class="desc">A beautiful bracelet made by gold.</div>
 </div>
