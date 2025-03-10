@@ -46,7 +46,6 @@ h1 {
 }
 h2 {
   color: black;
-  text-align: center;
   font-family: courier;
   font-size: 150%;
 
@@ -108,9 +107,6 @@ body {
 <li><a href="products.html">Products</a></li>
 <li><a href="gallery.html">Gallery</a></li>
 <li><a href="contact.html">Contact</a></li>
-<div class="h2">
-  <h1>h2</h1>
-</div>
 </ul>
 
 <body>
